@@ -1,0 +1,162 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e2f;
+}
+
+.signup-box {
+    background-color: #2d2d3b;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 350px;
+}
+
+.signup-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #aaa;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box select:focus ~ label,
+.input-box select:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: orange;
+    font-size: 12px;
+}
+
+.input-box select {
+    color: #aaa;
+    cursor: pointer;
+}
+
+.role-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff8800;
+} */
+
+
+
+.signup-box {
+    background-color: #2d2d3b;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 350px;
+    margin: 40px auto;
+  }
+  
+  .signup-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .input-box input,
+  .input-box select {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #aaa;
+  }
+  
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label {
+    top: -20px;
+    color: orange;
+    font-size: 12px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff8800;
+  }
